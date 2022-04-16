@@ -39,3 +39,11 @@ img {
     gap: 1ch;
     padding: 0 2ch;
 }
+
+@media only screen and (max-width: 600px) {
+    .project {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
