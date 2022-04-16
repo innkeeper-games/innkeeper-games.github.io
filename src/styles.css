@@ -1,0 +1,26 @@
+@font-face {
+    font-family: "Bree Serif Regular";
+    src: url("./assets/fonts/BreeSerif-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Noto Sans Regular";
+    src: url("./assets/fonts/NotoSans-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Noto Sans Regular";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Bree Serif Regular", serif;
+}
+
+a {
+    color: black;
+}

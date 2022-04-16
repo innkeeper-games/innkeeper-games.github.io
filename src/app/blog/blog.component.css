@@ -1,0 +1,13 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+#blog {
+    border: none;
+    flex-grow: 1;
+}
+
+#wa-note {
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div *ngIf="authenticated; then account else auth"></div>
+<ng-template #account>
+    <app-account></app-account>
+</ng-template>
+<ng-template #auth>
+    <div class="content" role="main">
+        <div class="auth-container">
+            <div *ngIf="needAccount; then signUp else signIn"></div>
+            <ng-template #signUp>
+                <h2>Sign Up</h2>
+                <app-sign-up></app-sign-up>
+            </ng-template>
+            <ng-template #signIn>
+                <h2>Sign In</h2>
+                <app-sign-in></app-sign-in>
+            </ng-template>
+        </div>
+    </div>
+</ng-template>
