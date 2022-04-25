@@ -1,12 +1,4 @@
 <div id="nav" role="navigation">
     <a routerLink="/" routerLinkActive="active">Home</a>
     <a routerLink="/blog" routerLinkActive="active">Blog</a>
-    <div *ngIf="authenticated; then account else auth"></div>
-    <ng-template #account>
-        <a routerLink="/account" routerLinkActive="active">Account</a>
-    </ng-template>
-    <ng-template #auth>
-        <a routerLink="/sign-in" routerLinkActive="active">Sign in</a>
-        <a routerLink="/sign-up" routerLinkActive="active">Sign up</a>
-    </ng-template>
 </div>
